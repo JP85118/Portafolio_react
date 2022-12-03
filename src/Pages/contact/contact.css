@@ -1,0 +1,81 @@
+Form{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: var(--secondary);
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  background: var(--color-sec);
+  border-radius: .8rem;
+  height: 80%;
+  width: 30%;
+}
+
+.box-name,
+.box-email,
+.box-phone{
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+}
+
+.box-name label,
+.box-email label,
+.box-phone label,
+.box-message label{
+  color: var(--dark);
+  margin: 1.2rem 0;
+  font-size: 1.3rem;
+}
+
+.box-name input,
+.box-email input,
+.box-phone input{
+  text-align: center;
+  border: transparent;
+  border-radius: 1.1rem;
+  width: 30rem;
+  height: 3rem;
+}
+
+.box-message{
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+}
+
+.box-message textarea{
+  border: transparent;
+  width: 30rem;
+}
+
+.btn{
+  margin: 1rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 1.1rem;
+  transition: all 400ms ease;
+}
+
+.btn:hover{
+  background: var(--dark);
+  color: var(--light);
+}
+
+.error{
+  color: red;
+  font-size: .8rem;
+  text-align: center;
+}
+
+.confirm{
+  color: green;
+}
