@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import {AiFillGithub} from 'react-icons/ai'
 import {AiOutlineDribbble} from 'react-icons/ai'
-import Login from "./login/Login"
 import './footer.css'
 
 const Footer = () => {

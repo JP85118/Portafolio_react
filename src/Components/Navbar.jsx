@@ -14,7 +14,7 @@ const Navbar = () => {
             links.map(({name, path, isPrivate}, index) =>{
                 return (
                   <li key={index} className="links">
-                    {isPrivate && isLogged || !isPrivate ? 
+                    {(isPrivate && isLogged) || (!isPrivate) ? 
                       <NavLink to={path} className={({isActive}) => isActive ? "active-nav" : ""}>
                         {name}
                       </NavLink> : null

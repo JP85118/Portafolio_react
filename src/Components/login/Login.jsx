@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { useState, useEffect } from 'react'
+import { useState} from 'react'
 import './login.css'
 
 const Login = () => {
@@ -12,8 +12,6 @@ const Login = () => {
     //email: "sam.alejo98@gmail.com",
     //discordId: "913533882815643739"
   })
-
-  const [token, setToken] = useState(null);
 
   const handleChange = (e) => {
     console.log(e);
@@ -30,47 +28,13 @@ const Login = () => {
         //console.log(res.data.token);
         localStorage.setItem("token",res.data.token)
         return res.data.token
-  
       })
-      /* .then((token) => {
-        setToken(token)
-        console.log(token);
-      })  */
   };
 
   const submit = (e) => {
     e.preventDefault();
     loginApp();
   };
-
-
-  const Welcome = () => {
-
-    const [checked, setChecked] = useState(false);
-    const [data, setData] = useState(null);
-
-    async function checkToken(){
-      axios.get(`${url}/auth/check`, {
-        headers:{
-          Authorization: `Bearer ${token}`
-        }
-      })
-      .then((res) => {
-        setData(res.data)
-        setChecked(true)
-      })
-    }
-
-    useEffect(() => {
-      checkToken()
-    }, []);
-
-    return(
-      <>
-        {checked ? <p>Welcome {data.username}</p> : <p>Loading...</p>}
-      </>
-    )
-  }
 
   return (
     <>
