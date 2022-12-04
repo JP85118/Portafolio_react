@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portafolio_react/static/css/main.05930322.css",
+    "main.js": "/Portafolio_react/static/js/main.043ba200.js",
+    "static/media/proyect6.png": "/Portafolio_react/static/media/proyect6.965c0fc4a84d0eb4bbfa.png",
+    "static/media/phto.jpg": "/Portafolio_react/static/media/phto.7d34f0030f7ceb105083.jpg",
+    "static/media/proyect3.png": "/Portafolio_react/static/media/proyect3.eaf2dfb30bc6be36f799.png",
+    "static/media/proyect1.png": "/Portafolio_react/static/media/proyect1.131ff73b05fc32b90245.png",
+    "static/media/proyect2.png": "/Portafolio_react/static/media/proyect2.eb9b7665027dd0162763.png",
+    "static/media/proyect4.png": "/Portafolio_react/static/media/proyect4.63a7d6a576762984ab6d.png",
+    "static/media/proyect5.png": "/Portafolio_react/static/media/proyect5.c6fcb3c3f74dc856fdab.png",
+    "index.html": "/Portafolio_react/index.html",
+    "main.05930322.css.map": "/Portafolio_react/static/css/main.05930322.css.map",
+    "main.043ba200.js.map": "/Portafolio_react/static/js/main.043ba200.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05930322.css",
+    "static/js/main.043ba200.js"
+  ]
+}
