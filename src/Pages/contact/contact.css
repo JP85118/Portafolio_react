@@ -25,7 +25,6 @@ Form{
 .box-phone{
   display: flex;
   flex-direction: column;
-  margin: .5rem;
 }
 
 .box-name label,
@@ -33,7 +32,7 @@ Form{
 .box-phone label,
 .box-message label{
   color: var(--dark);
-  margin: 1.2rem 0;
+  margin: .6rem 0;
   font-size: 1.3rem;
 }
 
