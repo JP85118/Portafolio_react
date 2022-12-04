@@ -1,0 +1,32 @@
+.form__container{
+  width: 100%;
+  height: calc(100vh - 4.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__login{
+  border: 1px solid transparent;
+  width: 20rem;
+  height: 25rem;
+  border-radius: 0.8rem;
+}
+
+.form__email,
+.form__discord{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+label{
+  padding: 1rem;
+}
+
+input{
+  width: 12rem;
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 1rem;
+}

@@ -4,7 +4,7 @@
   margin-top: 4.5rem;
   /*margin-left: 2rem; */
   background: var(--light);
-  height: calc(100vh - 4.5rem);
+  height: calc(100vh - 7.3rem);
 }
 
 .home__title{
@@ -23,7 +23,7 @@ span{
 }
 
 .home__paragraph{
-  /* padding-top: 1rem; */
+  padding-bottom: 15rem;
   font-size: 1.4rem;
 }
 

@@ -22,3 +22,7 @@
 .link a:hover{
   color: var(--color-sec);
 }
+
+.paragraph{
+  text-align: center;
+}

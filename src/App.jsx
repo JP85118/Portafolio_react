@@ -5,12 +5,13 @@ import About from './Pages/about/About'
 import Proyects from './Pages/proyects/Proyects'
 import Contact from './Pages/contact/Contact'
 import Footer from "./Components/Footer";
-import Login from "./Components/login/Login";
+
+
 
 const App = () => {
-  return (
+  return (    
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter> 
         <Navbar/>
         <Routes>
           <Route index element={<Home/>}/>
@@ -20,7 +21,6 @@ const App = () => {
         </Routes>
         <Footer/>
       </BrowserRouter>
-      <Login/>
     </div>
   )
 }
