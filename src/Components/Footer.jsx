@@ -28,7 +28,7 @@ const Footer = () => {
   }
 
   if (!isLogged) {
-    return(<p className="paragraph">Debe iniciar sesion</p>)
+    return(<p className="paragraph">Debe iniciar sesion // Recargar la pagina para acceder al Portafolio 😁</p>)
   }
 }
 

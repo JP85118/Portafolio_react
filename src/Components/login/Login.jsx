@@ -7,10 +7,10 @@ const Login = () => {
   const url = "https://ms-discord-upy5mhs63a-rj.a.run.app";
 
   const [values, setValues] = useState({
-    email: "jhoswe.castro@gmail.com",
-    discordId: "948254878596202517"
-    //email: "sam.alejo98@gmail.com",
-    //discordId: "913533882815643739"
+    //email: "jhoswe.castro@gmail.com",
+    //discordId: "948254878596202517"
+    email: "sam.alejo98@gmail.com",
+    discordId: "913533882815643739"
   })
 
   const handleChange = (e) => {
